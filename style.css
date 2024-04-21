@@ -1,0 +1,33 @@
+@media (orienton:landscape){
+  .width{
+    width: 100%;
+  }
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color:#797979;
+}
+
+#header_button {
+    display: inline;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    
+}
+
+#header_button:hover {
+  transition-property: 
+transform;
+  transition-duration: .5s;
+  transform: scale(1.1)
+}
+
+body {
+  background-image: url(images/flat-lay-autumn-fig-salad-plate-with-copy-space-walnuts_23-2148684121.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
